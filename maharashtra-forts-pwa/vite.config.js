@@ -3,6 +3,7 @@ import react from '@vitejs/plugin-react';
 import { VitePWA } from 'vite-plugin-pwa';
 
 export default defineConfig({
+  base: '/FINAL_PWA/', // 👈 Added for GitHub Pages
   plugins: [
     react({
       jsxRuntime: 'automatic'
